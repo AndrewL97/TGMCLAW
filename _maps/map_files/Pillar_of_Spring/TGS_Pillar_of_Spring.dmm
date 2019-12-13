@@ -565,6 +565,12 @@
 	dir = 1
 	},
 /area/mainship/hallways/hangar)
+"bR" = (
+/obj/machinery/door/poddoor/shutters/mainship/selfdestruct{
+	dir = 4
+	},
+/turf/closed/wall/mainship,
+/area/mainship/command/self_destruct)
 "bT" = (
 /obj/machinery/sleeper,
 /turf/open/floor/mainship{
@@ -2841,11 +2847,6 @@
 /obj/effect/decal/warning_stripes/thin,
 /turf/open/floor/mainship/mono,
 /area/mainship/squads/req)
-"js" = (
-/obj/machinery/marine_selector/gear/medic,
-/obj/machinery/marine_selector/gear/medic,
-/turf/open/floor/mainship,
-/area/mainship/squads/general)
 "jt" = (
 /obj/machinery/marine_selector/gear/engi,
 /turf/open/floor/mainship,
@@ -9551,6 +9552,9 @@
 /area/mainship/hallways/aft_hallway)
 "AC" = (
 /obj/machinery/door/poddoor/mainship{
+	dir = 4
+	},
+/obj/machinery/door/poddoor/shutters/mainship/selfdestruct{
 	dir = 4
 	},
 /turf/open/floor/mainship/mono,
@@ -53424,7 +53428,7 @@ bq
 aO
 bZ
 qC
-js
+jj
 jG
 jj
 jG
@@ -55005,7 +55009,7 @@ Mb
 Be
 Io
 Be
-OF
+bk
 OF
 OF
 OF
@@ -55013,7 +55017,7 @@ AK
 OF
 OF
 OF
-OF
+bk
 La
 ad
 aa
@@ -55262,7 +55266,7 @@ uB
 tA
 In
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -55270,7 +55274,7 @@ SD
 Zw
 Zw
 Zw
-OF
+bk
 aH
 ad
 aa
@@ -55519,7 +55523,7 @@ uC
 tA
 In
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -55527,7 +55531,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -55776,7 +55780,7 @@ vD
 tA
 In
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -55784,7 +55788,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -56033,7 +56037,7 @@ eo
 tA
 In
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -56041,7 +56045,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -56290,7 +56294,7 @@ MG
 tA
 In
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -56298,7 +56302,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -56547,7 +56551,7 @@ uG
 tA
 In
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -56555,7 +56559,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -56804,7 +56808,7 @@ uG
 tA
 In
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -56812,7 +56816,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -57061,7 +57065,7 @@ uG
 Ij
 Ip
 Iq
-OF
+bk
 Zw
 Zw
 Zw
@@ -57069,7 +57073,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -57318,7 +57322,7 @@ gV
 tA
 vA
 tA
-OF
+bk
 Zw
 Zw
 Zw
@@ -57326,7 +57330,7 @@ Zw
 Zw
 Zw
 Zw
-OF
+bk
 La
 ad
 aa
@@ -57576,13 +57580,13 @@ gT
 gT
 gT
 OF
-OF
+bR
 AC
 AC
 AC
 AC
 AC
-OF
+bR
 OF
 LA
 ad
